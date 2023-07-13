@@ -1,0 +1,50 @@
+html,body{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    color: white;
+    background-color: black;
+}
+
+a{
+    color: white;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    padding: 2rem 0; 
+    background: rgb(190, 52, 52);
+    width: 100%;
+}
+
+
+#slideshow{
+    width: 100%;
+    min-height: 50vh;
+    border: solid 2px black;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    
+}
+
+section{
+    background-image: url("/images/hero-main.jpg");
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.search-area{
+    padding: 60px 0;
+}
+
+input{
+    width: 40vw;
+}

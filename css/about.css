@@ -1,0 +1,17 @@
+html,body{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    color: white;
+    background-color: black;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    padding: 2rem 0; 
+    background: rgb(190, 52, 52);
+    width: 100%;
+}
